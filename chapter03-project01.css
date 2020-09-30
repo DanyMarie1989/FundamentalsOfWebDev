@@ -1,0 +1,96 @@
+body {
+    background-color: #253c46;
+    font-family: calibri;
+}
+
+#heading {
+    width: 70%;
+    margin: auto;
+    background-color: #3D6271;
+    color: white;
+    padding-left: 5px;
+    
+}
+
+#navigation {
+    margin: auto;
+    margin-top: -16px;
+    width: 70%;
+    background-color: #778d96fa;
+    padding: 5px 0 5px 5px;
+}
+
+nav a:link {
+    width: 70%;
+    background-color: #778d96fa;
+    color: skyblue;
+    text-decoration: underline;
+    font-weight: 900;
+    
+}
+
+article {
+    margin: auto;
+    width: 70%;
+    background-color: white;
+    padding: 0 2px 15px 5px;
+}
+
+#description, #related_photos, #reviews, .review-by-user {
+    margin-bottom: -10px;
+    padding-top: 5px;
+}
+
+#photo-by, figcaption, .review-by-user {
+    font-style: italic;
+}
+
+article a:link {
+    color: skyblue;
+    font-weight: bold;
+}
+
+article a:visited {
+    color: plum;
+    font-weight: bold;
+}
+
+figure #central-park-img {
+    padding: 0;
+    margin-left: -40px;
+    width: 70%;
+    border: 1px solid black;
+    padding: 3px 2px 3px 3px;
+}
+
+figcaption {
+    padding: 0;
+    margin-left: -40px;
+}
+#share {
+    display: flex;
+    width: 450px;
+    height: 40px;
+    background-image: linear-gradient(whitesmoke, silver);
+    border-radius: 5px;
+    border: 1px solid darkgrey;
+    padding: 0 0 5px 5px;
+}
+
+.user {
+    margin-bottom: -20px;
+}
+
+footer {
+    background-color: #778d96fa;
+    width: 70%;
+    margin: auto;
+    color: white;
+    margin-top: 10px;
+    padding: 3px 0 5px 6px;
+}
+
+footer a:link {
+    color: skyblue;
+    font-weight: bold;
+}
