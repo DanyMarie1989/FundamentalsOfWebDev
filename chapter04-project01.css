@@ -1,0 +1,62 @@
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+}
+
+caption {
+   background-color: teal;
+   padding: 10px;
+   width: 300px;
+}
+
+table {
+   margin: auto;
+   margin-top: 20px;
+   width: 300px;
+   text-align: center;
+   border-spacing: 5px;
+}
+
+.weekday {
+   border-bottom: 1px solid rgba(128, 128, 128, 0.404);
+}
+
+table tr {
+   background-color: rgba(128, 128, 128, 0.068);
+}
+
+.week {
+   border-right: 1px solid rgba(128, 128, 128, 0.404);
+   border-bottom: 1px solid rgba(128, 128, 128, 0.404);
+   padding: 5px;
+}
+
+.first {
+   color: teal;
+   text-decoration: underline;
+}
+
+#today {
+   background-color: rgba(0, 128, 128, 0.452);
+   color: white;
+}
+
+.month {
+   padding: 5px;
+   text-decoration: underline;
+}
+
+form {
+   margin: auto;
+   margin-top: 50px;
+   width: 450px;
+   background-color: lightgray;
+   padding: 5px;
+   line-height: 25px;
+}
+

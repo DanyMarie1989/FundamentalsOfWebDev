@@ -1,0 +1,70 @@
+/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+}
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 100%;
+}
+
+#genre, #search {
+   background-color: rgba(135, 206, 250, 0.199);
+   padding: 10px;
+   border: 1px solid skyblue;
+   margin: auto;
+   margin-top: 5px;
+   width: 85%;
+}
+
+caption {
+   background-color: skyblue;
+   padding: 5px;
+   font-weight: bold;
+}
+
+table {
+   border-collapse: collapse;
+}
+
+th {
+   background-color: rgba(135, 206, 250, 0.199);
+   padding: 3px;
+   border-bottom: 1px solid skyblue;
+   text-align: left;
+}
+
+#paintings-table {
+   width: 85%;
+   border: 1px solid skyblue;
+   padding: 10px;
+   margin: auto;
+   margin-top: 5px;
+}
+
+tr {
+   border-bottom: 1px solid skyblue;
+   padding: 5px;
+}
+
+tr:last-child {
+   border-bottom: none;
+}
+
+tr td {
+   padding: 5px 0 5px 0;
+   font-style: italic;
+}
+
+td:last-child {
+   font-style: normal;
+}
+
+.edit {
+   border: 1px solid gray;
+   background-color: rgba(128, 128, 128, 0.075);
+   padding: 2px 5px;
+   margin-right: 12px;
+   border-radius: 2px;
+}
+
